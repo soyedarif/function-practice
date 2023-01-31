@@ -107,3 +107,9 @@ for (let keys of bagPack.geomatryBox){
     const index= bagPack.geomatryBox.indexOf(keys);
     console.log(keys,index)
 }
+//solution
+const myRandomNumbers = [45, 87, 89, 56, 32, 51, 25, 188, 41, 25, 98];
+for (let number of myRandomNumbers){
+    const index=myRandomNumbers.indexOf(number)
+    console.log(number, index)
+}
