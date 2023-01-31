@@ -53,6 +53,12 @@ function multiplicationTable(number) {
 }
 const theTable = multiplicationTable(13)
 console.log(theTable);
+//solution
+function reverseString(name) {
+    const reversed =name.split("").reverse().join("");
+     return reversed;
+ }
+ console.log(reverseString("Soyed Arif"));
 // solution
 function uppercase(name) {
     console.log(name.toUpperCase());
@@ -66,7 +72,7 @@ function stringAdd(firstName, LastName) {
 console.log(stringAdd("Soyed", "Arif"));
 //solution
 function squared(num) {
-    return num ** 2;
+    return Math.pow(num,2);
 }
 console.log(squared(6));
 //solution
